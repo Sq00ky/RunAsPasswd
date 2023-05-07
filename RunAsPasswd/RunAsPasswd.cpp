@@ -96,7 +96,6 @@ int main(int argc, char* argv[])
             string combinedArgs;
             combinedArgs = command + " " + args;
             mbstowcs(w_args, combinedArgs.data(), sizeof(args));
-            cout << combinedArgs;
             if (CreateProcessWithLogonW(w_username, w_domain, w_password, netonly, w_command, w_args, CREATE_NO_WINDOW, NULL, NULL, &si, &pi)) {
                 cout << "[+] Command executed successfully!\n";
             }
