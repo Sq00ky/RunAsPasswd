@@ -58,7 +58,7 @@ I'll point out a quick note here that I thought was interesting - There are two 
 
 <img src="https://raw.githubusercontent.com/Sq00ky/RunAsPasswd/main/Image/klist.png">
 
-Anywyas - I'm no Windows expert, but I thought that was an interesting thing to note. At first, I was going to have it default to ``LOGON_NETCREDENTIALS_ONLY``, but it turns out that may be confusing for some individuals, so I left it as is.
+Anyways - I'm no Windows expert, but I thought that was an interesting thing to note. At first, I was going to have it default to ``LOGON_NETCREDENTIALS_ONLY``, but it turns out that may be confusing for some individuals, so I left it as is.
 
 ### Disclaimers
 I'm not responsible for any damage this program may cause. Use at your own risk. This program is meant for educational purposes only.
